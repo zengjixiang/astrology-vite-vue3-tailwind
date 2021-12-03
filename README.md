@@ -20,10 +20,10 @@ First-party plugins needed for Tailwind UI:
 
 ### Getting Started 🚀
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/web2033/vite-vue3-tailwind-starter)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/zengjixiang/astrology-vite-vue3-tailwind)
 
 ```sh
-npx degit web2033/vite-vue3-tailwind-starter vvt-app
+npx degit zengjixiang/astrology-vite-vue3-tailwind vvt-app
 cd vvt-app
 ```
 
