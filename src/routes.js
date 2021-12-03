@@ -4,10 +4,10 @@ import NotFound from './views/NotFound.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
-  { path: '/', component: Home, meta: { title: 'Home' } },
+  { path: '/', component: Home, meta: { title: '系統首頁' } },
   {
     path: '/about',
-    meta: { title: 'About' },
+    meta: { title: '關於作者' },
     component: About,
     // example of route level code-splitting
     // this generates a separate chunk (About.[hash].js) for this route
