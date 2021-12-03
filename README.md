@@ -23,8 +23,8 @@ First-party plugins needed for Tailwind UI:
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/zengjixiang/astrology-vite-vue3-tailwind)
 
 ```sh
-npx degit zengjixiang/astrology-vite-vue3-tailwind vvt-app
-cd vvt-app
+npx degit zengjixiang/astrology-vite-vue3-tailwind my-app
+cd my-app
 ```
 
 npm:
