@@ -10,16 +10,16 @@ import ButtonRepo from '@/components/ButtonRepo.vue'
       <h2
         class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
       >
-        Ready to dive in?
+        歡迎來到 Astrology 占星網
         <br />
-        <span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
+        <span class="text-indigo-600">Astrology 占星網 (使用技術: Vite + Vue 3 + Tailwind CSS)</span>
       </h2>
       <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
           <router-link
             to="/about"
             class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
-            >Next Page</router-link
+            >關於作者</router-link
           >
         </div>
         <ButtonRepo />
