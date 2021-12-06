@@ -1,5 +1,6 @@
 <script setup>
 import Menu from "../components/Menu.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
@@ -24,8 +25,10 @@ import Menu from "../components/Menu.vue";
             >回到首頁</router-link
           >
         </div>
-        <ButtonRepo />
       </div>
     </div>
   </div>
+
+  <Footer />
+
 </template>

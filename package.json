@@ -1,6 +1,7 @@
 {
   "name": "astrology-vite-vue3-tailwind",
   "version": "0.0.0",
+  "description": "使用 Vite + Vue 3 + Tailwind CSS 技術開發",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",

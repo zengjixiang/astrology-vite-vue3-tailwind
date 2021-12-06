@@ -1,13 +1,13 @@
 <script setup>
 
-  </script>
+</script>
 
 
 <template>
   <div class="flex flex-wrap py-2">
     <div class="w-full px-4">
       <nav
-        class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-red-500 rounded"
+        class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-red-300 rounded"
       >
         <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div
@@ -66,18 +66,23 @@
 
           <div class="inline-flex rounded-md shadow">
             <router-link
+              to="/login"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
+            >系統登入</router-link>
+          </div>
+
+          <div class="inline-flex rounded-md shadow">
+            <router-link
               to="/astroInfo"
               class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
             >占星資訊</router-link>
           </div>
 
-          <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-            <div class="inline-flex rounded-md shadow">
-              <router-link
-                to="/about"
-                class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
-              >關於作者</router-link>
-            </div>
+          <div class="inline-flex rounded-md shadow">
+            <router-link
+              to="/about"
+              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
+            >關於作者</router-link>
           </div>
         </div>
       </nav>
