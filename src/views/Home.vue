@@ -5,8 +5,12 @@ import Footer from "../components/Footer.vue";
 
 
 <template>
+  <!-- 功能表 -->
   <Menu />
 
+  
+
+  <!-- 頁尾 -->
   <Footer />
 </template>
 

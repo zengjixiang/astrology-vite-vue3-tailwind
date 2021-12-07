@@ -8,8 +8,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@vue/composition-api": "^1.4.1",
     "moment": "^2.29.1",
     "vue": "^3.2.23",
+    "vue-demi": "^0.12.1",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {

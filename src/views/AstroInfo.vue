@@ -5,6 +5,7 @@ import Footer from "../components/Footer.vue";
 
 <template>
   <div class="bg-gray-50">
+    <!-- 功能表 -->
     <Menu />
 
     <div
@@ -30,5 +31,6 @@ import Footer from "../components/Footer.vue";
     </div>
   </div>
 
+  <!-- 頁尾 -->
   <Footer />
 </template>

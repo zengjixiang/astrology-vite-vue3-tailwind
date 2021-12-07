@@ -29,6 +29,7 @@ import Footer from "../components/Footer.vue";
     ```
   -->
 
+  <!-- 功能表 -->
   <Menu />
 
   <div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
@@ -87,6 +88,7 @@ import Footer from "../components/Footer.vue";
     </div>
   </div>
 
+  <!-- 頁尾 -->
   <Footer />
 
 </template>

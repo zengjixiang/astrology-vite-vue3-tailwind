@@ -4,6 +4,7 @@ import Footer from "../components/Footer.vue";
 </script>
 
 <template>
+  <!-- 功能表 -->
   <Menu />
 
   <div class="bg-gray-50">
@@ -15,7 +16,7 @@ import Footer from "../components/Footer.vue";
       >
         關於作者
         <br />
-        <span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
+        <span class="text-indigo-600">作者資訊</span>
       </h2>
       <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
         <div class="inline-flex rounded-md shadow">
@@ -29,6 +30,7 @@ import Footer from "../components/Footer.vue";
     </div>
   </div>
 
+  <!-- 頁尾 -->
   <Footer />
 
 </template>
